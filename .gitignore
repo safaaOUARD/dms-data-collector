@@ -1,0 +1,21 @@
+# Données collectées (personnelles, ne jamais publier)
+dataset/*
+!dataset/.gitkeep
+sessions.db
+*.db
+*.h5
+*.mp4
+*.avi
+
+# Documents lourds (publier uniquement le PDF dans docs/)
+*.pptx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/

@@ -1,0 +1,26 @@
+# DMS Data Collector
+# Installer : pip install -r requirements.txt
+
+# Interface graphique
+PyQt6>=6.4.0
+
+# Signaux & stockage
+h5py>=3.8.0
+numpy>=1.24.0
+
+# Caméra RGB (ORBBEC Astra Pro — flux RGB)
+opencv-python>=4.8.0
+
+# Caméra 3D depth (ORBBEC Astra Pro — flux DEPTH via OpenNI2)
+# Prérequis : SDK OpenNI2 installé → https://www.orbbec.com/developers/openni-sdk/
+openni>=2.3.0
+
+# Bracelet BLE (H59MAX iSo Tech — protocole propriétaire)
+bleak>=0.21.0
+
+# Volant (Logitech G29 — axes joystick USB)
+pygame>=2.5.0
+
+# EEG (NeuroSky MindWave Mobile 2 — RFCOMM natif Python)
+# Prérequis OS : Bluetooth classique activé (Windows)
+# Pas de package pip requis — socket.AF_BLUETOOTH natif
